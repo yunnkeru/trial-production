@@ -1,0 +1,83 @@
+@charset "UTF-8";
+  
+/* ********************************************
+// --- リセット ---
+// ※ブラウザのデフォルトCSSをリセット
+// ***************************************** */
+  
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 16px;
+}
+body {
+  font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+header, footer, nav, menu, article, aside, section, details, figcaption, figure{
+  display: block;
+}
+ul, ol {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+img {
+  vertical-align: bottom;
+}
+a img {
+  border: none;
+}
+strong {
+  font-weight: normal;
+}
+i{
+  font-style: normal;
+}
+.section-inner {
+  max-width: 90%;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/*ヘッダー*/
+.header-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:450px;
+}
+.header-inner {
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+.header-title {
+  position: relative;
+  top:45px;
+  left:100px;
+  font-size: 5em;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  padding-top:20px;
+}
+.header-title a {
+  color:#fff;
+  text-decoration: none;
+}
+.header-subtitle {
+  position: relative;
+  top:250px;
+  left:155px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+.navigate {
+  box-shadow: 0 2px 3px rgba(0,0,0,.1);
+  background-color: #fff;
+  padding: 0;
+  position: relative;
+}
